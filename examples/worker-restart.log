@@ -1,0 +1,5 @@
+Dec 31 23:59:55 host worker[212]: draining queue (3 jobs left)
+Dec 31 23:59:58 host worker[212]: queue empty, checkpointing
+Jan  1 00:00:31 host worker[212]: checkpoint complete
+Jan  1 00:00:32 host systemd[1]: worker.service: scheduled restart
+Jan  1 00:00:33 host worker[213]: started, resuming from checkpoint

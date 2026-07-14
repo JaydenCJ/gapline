@@ -1,0 +1,13 @@
+2026-07-12T14:03:22.120Z INFO  http GET /api/users 200 12ms
+2026-07-12T14:03:22.145Z INFO  http GET /api/orders 200 9ms
+2026-07-12T14:03:22.161Z INFO  cache hit users:list
+2026-07-12T14:03:22.190Z INFO  http GET /api/accounts/9 200 4ms
+2026-07-12T14:03:22.214Z INFO  http POST /api/login 201 22ms
+2026-07-12T14:03:23.530Z WARN  pool connection pool exhausted, waiting
+2026-07-12T14:03:23.542Z INFO  http GET /api/health 200 1ms
+2026-07-12T14:03:23.561Z INFO  http GET /api/orders 200 8ms
+2026-07-12T14:03:27.581Z ERROR upstream billing-svc timed out after 4s
+  retrying with backoff (attempt 1/3)
+2026-07-12T14:03:27.612Z INFO  http POST /api/checkout 502 4031ms
+2026-07-12T14:03:27.630Z INFO  http GET /api/users 200 11ms
+2026-07-12T14:03:27.655Z INFO  http GET /api/orders 200 7ms
